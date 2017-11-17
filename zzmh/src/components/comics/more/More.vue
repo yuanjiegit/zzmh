@@ -86,11 +86,11 @@
     width: 100%;
     height: 100%;
     background-color: #fff;
+    z-index: 500;
     transition: all 0.5s;
     &.more-enter, &.more-leave-to {
       opacity: 0;
     }
-    z-index: 500;
     .title {
       position: relative;
       top: 0;
